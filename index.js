@@ -15,9 +15,7 @@ function superbowlWin(obj){
   obj.find(function (a) {
     if(a.result === 'W'){
      results = a.year
-    } else {
-      
-    }
+    } 
   })
   return results
 }
