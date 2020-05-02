@@ -15,5 +15,7 @@ function superbowlWin(array) {
   let wObject = array.find( arrObject => {
     return arrObject["result"] === "W";
   });
-  return wObject["year"];
+  if (wObject) {
+    return wObject["year"];
+  };
 };
